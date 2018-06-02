@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.job.piyawut.registration.UserControllerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.6 sec <<< FAILURE! - in com.job.piyawut.registration.UserControllerTest
+shouldReturnUserWhenGetUser(com.job.piyawut.registration.UserControllerTest)  Time elapsed: 0.261 sec  <<< FAILURE!
+java.lang.AssertionError: Content type expected:<application/json> but was:<application/json;charset=UTF-8>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:54)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:81)
+	at org.springframework.test.web.servlet.result.ContentResultMatchers$1.match(ContentResultMatchers.java:83)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at com.job.piyawut.registration.UserControllerTest.shouldReturnUserWhenGetUser(UserControllerTest.java:54)
+
