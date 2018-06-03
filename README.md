@@ -7,4 +7,4 @@
 * Download repository: `https://github.com/JGetByte/registration-service.git`
 * open Terminal or commandline and goto `cd regirstion-service-master`
 * run `mvn package`
-* cd target 'java -jar <file>'
+* cd target 'java -jar <<filename.jar>>.'
