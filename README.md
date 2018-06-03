@@ -5,6 +5,6 @@
 * Maven 3.5
 ### Getting Set Up
 * Download repository: `https://github.com/JGetByte/registration-service.git`
-* open Terminal or commandline and goto `cd regirstion-service-master`
+* open Terminal or commandline and go to project
 * run `mvn package`
-* cd target `java -jar <<file.jar>>.`
+* go to .jar `cd target` run `java -jar <<file.jar>>.`
