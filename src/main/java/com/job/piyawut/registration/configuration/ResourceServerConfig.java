@@ -19,7 +19,7 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
                 .headers().frameOptions().disable()
                 .and()
                 .authorizeRequests()
-                .antMatchers("/api/**")
+                .antMatchers("/users/**")
                 .authenticated()
                 .anyRequest()
                 .permitAll();
